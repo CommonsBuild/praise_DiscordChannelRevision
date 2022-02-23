@@ -1,15 +1,15 @@
-# Praise Audit: Results
+# Praise audit results
 
 This repository contains the results of the praise audit performed during February 2022. It was set in motion because of [this issue](https://github.com/CommonsBuild/coordination/issues/1142
 ), where a community member noticed that his praise messages weren't being reacted to by the praise bot. 
 It was therefore decided to take a closer look at the praise dished during a shorter period of time (in this case 01. November 2021 - 31. January 2022) to gauge the size of the issue. 
 
 For this analysis @Vyvy-vi generously supplied the following files:
-- **GoogleDiscord Praise Bot Sheet - Sheet1.csv** : This is a copy of the "official" praise sheet hosted on drive.google..... It contains all data since June and is used as "source of truth" during quantification. The goal was to see which praise (if any) DIDN'T end up here.
+- **`GoogleDiscord Praise Bot Sheet - Sheet1.csv`** : This is a copy of the "official" praise sheet hosted on drive.google..... It contains all data since June and is used as "source of truth" during quantification. The goal was to see which praise (if any) DIDN'T end up here.
 
-- **Token_Engineering_Commons_praise_2.csv**: A scrape of all the !praise dished in the TEC Discord server.
+- **`Token_Engineering_Commons_praise_2.csv`**: A scrape of all the !praise dished in the TEC Discord server.
 
-- **praise_samples_810180621930070088_1.json** : The same as above, but in JSON format also saving reactions to the messages (for example the ✅ from the bot).
+- **`praise_samples_810180621930070088_1.json`** : The same as above, but in JSON format also saving reactions to the messages (for example the ✅ from the bot).
 
 After taking a first look at the data it became clear very quickly that a missing ✅ in the discord channel didn't necessarily result in a missing entry in the Google Document, so we only ended up using the first two files for our analysis. The plan of action was:
 - Discard praise outside of the specifed dates
